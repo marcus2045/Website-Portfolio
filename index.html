@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcus Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <h1 class="logo">Marcus Portfolio</h1>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Work Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#quotes">References</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Welcome to My Portfolio</h1>
+                    <p>A showcase of my education, skills, and future projects</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+
+                <div class="about-content">
+                    <p>
+                        I am a motivated and detail‑oriented Computer Science graduate with strong skills in Python,
+                        data analysis, and software development. I enjoy building practical tools, solving real-world
+                        problems, and continuously improving my technical abilities. I am currently gaining hands‑on
+                        experience through volunteer work while developing personal projects that strengthen my
+                        programming and analytical skills.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">Technical Skills</h2>
+
+                <ul class="skills-list main-skills">
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>HTML & CSS</li>
+                    <li>Data Analysis & Statistics</li>
+                    <li>SQL & Database Design</li>
+                    <li>Software Development Lifecycle</li>
+                    <li>Object-Oriented Programming</li>
+                    <li>Computer Networks & Operating Systems</li>
+                </ul>
+
+                <h3 class="sub-title">Tools & Technologies</h3>
+                <ul class="skills-list main-skills">
+                    <li>VS Code</li>
+                    <li>GitHub</li>
+                    <li>NLTK (VADER)</li>
+                    <li>Pandas</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+
+                <div class="education-grid">
+
+                    <div class="education-card">
+                        <h3>Bachelor of Computer Science With Honors</h3>
+                        <p class="institution">
+                            <a href="https://www.edgehill.ac.uk/course/computer-science-bsc/" target="_blank" rel="noopener">Edge Hill University</a>
+                        </p>
+                        <p class="duration">2022 - 2025</p>
+
+                        <p class="description">Technical Proficiencies Developed Through University Curriculum:</p>
+                        <ul class="skills-list">
+                            <li><strong>Programming Languages:</strong> Python, Java</li>
+                            <li><strong>Software Engineering:</strong> SDLC, Systems Design, OOP</li>
+                            <li><strong>Data Science:</strong> Analytics, Inferential Statistics, NLP (Sentiment Analysis)</li>
+                            <li><strong>Databases:</strong> SQL, Database Design, Advanced Concepts</li>
+                            <li><strong>Systems:</strong> Architecture, Operating Systems, Networks</li>
+                            <li><strong>Theory & Security:</strong> Algorithms, Data Structures, Information Security</li>
+                        </ul>
+                    </div>
+
+                    <div class="education-card">
+                        <h3>BTEC Level 3 National Extended Diploma in Computing</h3>
+                        <p class="institution">
+                            <a href="https://www.westlancs.ac.uk/courses/775002003043783/computing-level-3" target="_blank" rel="noopener">West Lancashire College</a>
+                        </p>
+                        <p class="duration">2019 - 2022</p>
+
+                        <p class="description">Practical Skills Developed Through College Curriculum:</p>
+                        <ul class="skills-list">
+                            <li><strong>Languages:</strong> Python, HTML, CSS</li>
+                            <li><strong>Development:</strong> Web, Mobile Apps, Games, Software Design</li>
+                            <li><strong>Systems:</strong> Analysis & Design, Computer Systems, Networking</li>
+                            <li><strong>Digital Media:</strong> Graphics, Animation, Social Media Applications</li>
+                            <li><strong>Project Management:</strong> Computer Projects, Principles of CS</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Experience Section -->
+        <section id="experience" class="section">
+            <div class="container">
+                <h2 class="section-title">Work Experience</h2>
+
+                <div class="experience-grid">
+
+                    <div class="experience-card">
+                        <h3>Data Input & Administration Volunteer</h3>
+                        <p class="institution">West Lancs Ark</p>
+                        <p class="duration">October 2025 – Present</p>
+
+                        <ul class="experience-list">
+                            <li>Input client information into a secure database to issue food parcels.</li>
+                            <li>Supported the local foodbank by maintaining accurate and organised records.</li>
+                            <li>Assisted with general administrative duties when required.</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+
+                <div class="projects-grid">
+
+                    <div class="project-card">
+                        <h3>Sentiment Analysis</h3>
+                        <p class="project-description sentiment">
+                            A Python application that performs sentiment analysis on CSV text data using NLTK’s VADER model.
+                            It processes large datasets, identifies positive/negative sentiment, and displays the top results.
+                        </p>
+
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li>Automatic CSV encoding detection</li>
+                            <li>Interactive column selection</li>
+                            <li>Batch sentiment processing</li>
+                            <li>Top 40 positive/negative results</li>
+                            <li>Robust error handling</li>
+                        </ul>
+
+                        <div class="project-links">
+                            <a href="https://github.com/marcus2045/Sentiment-Analysis" target="_blank" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Project Title</h3>
+                        <p class="project-description">Add your project description here...</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Project Title</h3>
+                        <p class="project-description">Add your project description here...</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact-details">
+                    <p><strong>Email:</strong> marcusrowan2045@gmail.com</p>
+                    <p><strong>Location:</strong>  United Kingdom , England</p>
+                    <p><strong>GitHub:</strong> <a href="https://github.com/marcus2045" target="_blank">github.com/marcus2045</a></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- References Section -->
+        <section id="quotes" class="section">
+            <div class="container">
+                <h2 class="section-title">References & Quotes</h2>
+
+                <div class="quotes-container">
+
+                    <div class="quote-card">
+                        <p class="quote-text">Placeholder quote text...</p>
+                        <p class="quote-author">Placeholder Author, Position</p>
+                    </div>
+
+
+                    <div class="quote-card">
+                        <p class="quote-text">Placeholder quote text...</p>
+                        <p class="quote-author">Placeholder Author, Position</p>
+                    </div>
+
+
+                    <div class="quote-card">
+                        <p class="quote-text">Placeholder quote text...</p>
+                        <p class="quote-author">Placeholder Author, Position</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year">2026</span> Marcus Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="java.js"></script>
+</body>
+</html>
