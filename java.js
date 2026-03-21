@@ -47,11 +47,7 @@ document.querySelectorAll('.section').forEach(section => {
     observer.observe(section);
 });
 
-// LinkedIn button click tracking
-document.querySelector('.linkedin-btn').addEventListener('click', function() {
-    console.log('LinkedIn profile clicked');
-    // Add analytics tracking here if needed
-});
+
 
 // Current year for footer
 document.addEventListener('DOMContentLoaded', function() {
